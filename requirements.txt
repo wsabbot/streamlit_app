@@ -1,0 +1,11 @@
+altair
+pandas
+streamlit==1.11.1
+pyyaml
+numpy
+xlsxwriter
+openpyxl
+matplotlib
+seaborn
+textwrap3
+pydantic

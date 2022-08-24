@@ -1,0 +1,87 @@
+page_header: 'Smarter Solutions: Multi-Criteria Analysis (MCA) Tool'
+page_intro: >
+  Welcome to the Network Optimisation Framework (NOF): Multi-Criteria Analysis (MCA) Tool developed by the Department of Transport and Main Roads, Queensland. This tool has been designed for use in selecting a preferred option, or ranking alternate options, where Network Optimisation Solutions (NOS) are included within the assessment process by evaluating the overall performance of short-listed options against a series of selected criteria.
+
+  The MCA Tool applies a standardised consideration of NOS relative to large capital infrastructure, ensuring TMR is delivering the right infrastructure and aligning with government policy direction for investment as outlined in the Queensland Government's State Infrastructure Plan.
+
+  To apply the MCA Tool, follow the eight (8) step process outlined in the diagram below.
+
+  'Help' buttons are provided throughout the tool. These provide additional information on what inputs are required and how the tool uses them. Clicking these buttons will open the left sidebar. If the sidebar is not visible, click the arrow on the top left of the screen to expand it.
+
+  If you require additional support or have any questions, please contact: Transport_Analysis_Requests@tmr.qld.gov.au.
+
+import_tool_help: |
+  Use this function to import a previously configured project which has been exported to Excel.
+  
+  Note that currently only XLSX formats are supported.
+
+project_details_help: |
+  This section allows the user to provide a clear project definition before beginning the MCA process.
+    
+  A clear project definition will ensure that appropriate options are short-listed for evaluation and that the criteria selected for assessment reflect the nature of the service requirement or opportunity.
+    
+  If a clear project definition has been developed in other documentation, this section can be skipped.
+project_details_desc: >
+  Before beginning the MCA process a clear project definition is crucial to ensure that appropriate options are short-listed for evaluation and that the criteria selected for assessment reflect the nature of the service requirement. If not already considered elsewhere, please develop a clear project definition by addressing the following questions.
+  Is there any complementary infrastructure investment occuring within close proximity?
+  What is the key objective the project is being implemented to achieve?
+options_help: |
+  Options can be included either by entering options custom to your project or selecting from the predefined NOS options.
+
+  To add a new custom option, simply add the option name and description within the provided text boxes, pressing Enter to apply. Once an option has been added, a new option box will automatically be generated underneath. This can be left blank if there are no additional options to add.  
+
+  To select from predefined NOS options, tick the corresponding check boxes.
+ 
+  Note that at least two options must be included in order to produce the final MCA results.
+
+criteria_help: |
+  There are three options for selecting criteria:
+
+  1. Use the select box to choose from the list of predefined criteria in the table.
+
+  2. Use the text box to add custom criteria. Ensure both the criterion and category boxes are completed.
+
+  3. Tick the check box to include the list of predefined criteria considered mandatory when assessing NOS options.
+
+  A list of selected criteria will be output at the bottom of this section.
+
+criteria_desc: >
+  This section allows the user to select the criteria that will be applied to score each option.
+  Note: Various criteria are mandatory when considering a NOS option in the evaluation process. Additional criteria relating to intersection delay, public transport patronage and freight should be selected where appropriate.
+
+weight_help: |
+  This section allows the users to adjust the weights of each criteria
+ranking_help: |
+  This section allows the user to score each of the options against each of the selected criteria (1= Option achieves a significantly poorer outcome than the Base Case. 5= Option achieves a significantly better outcome than the Base Case).
+results_desc: > 
+  This section provides a summary of the scoring and ranking per criteria and options chosen
+results_help: |
+  This section outlines the results of the MCA. Results include:
+
+  - A graph showing the options scores for each of the criteria. 
+  - A table showing the final scoring and ranking of each option.
+  - A table showing the best option/s overall and each category. 
+ 
+  Note that multiple options will be output in case of equal scoring. Additionally, users can exclude the Base Case by ticking the checkbox..
+
+  Note: Options that score near or below the Base Case should be further evaluated to assess the viability of these options to deliver value for money and material improvements in network performance (or meet future service requirements).
+sensitivity_test_help: |
+  This section allows the user to easily undertake sensitivity testing on the results to identify the impact on the preferred option.
+
+  To undertake the sensitivity test, simply input in new weighting value into the text box.
+
+sensitivity_test_desc: >
+  Sensitivity analysis can be undertaken to assess whether the highest option remains the best after adjusting 
+  criteria weightings
+  
+link_desc: >
+    Further information regarding MCA and NOS is provided on TMR's website: https://www.tmr.qld.gov.au/business-industry/Business-with-us/Getting-the-most-out-of-existing-infrastructure
+  
+glossary:
+  - name: Base Case
+    definition: The expected outcomes of a do-minimum situation, assuming the continued operation of the network under current management practices.
+  - name: Option
+    definition: A possible solution (which could be a NOS) to address the identified problem. A wide range of options should be considered and analysed to determine the preferred option.
+  - name: Network Optimisation Solutions (NOS)
+    definition: Initiatives that can improve the functioning of the existing transport network without delivering significant new infrastructure.
+
